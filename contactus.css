@@ -72,7 +72,7 @@ html {
 }
 .contact-left div h3{
     text-align: center;
-    padding-top:5px ;
+    margin-top:10px ;
 }
 .contact-left div i{
     color: var(--secondrycolor);
@@ -98,8 +98,13 @@ html {
     text-align: center;
     margin-top: 15px;
 }
+#heart{
+    display: inline;
+    font-size: 18px;
+    margin: 0px 3px;
+}
 #form h3{
-    font-size   : 25px;
+    font-size : 25px;
 }
 .contact-right form{
     width: 80%;
