@@ -24,8 +24,16 @@ html {
     --headingcolor: #1ab79d;
     --textcolor: #1f1f1f;
 }
+#yellowish{
+    color: var(--secondrycolor);
+}
 
 /* ============================ contact =========================== */
+#contact-topheading{
+    font-size: 50px;
+    color: var(--secondrycolor);
+    margin-top: 100px;
+}
 .contactus{
     background: url(img6.png);
     background-position: center;
@@ -123,10 +131,11 @@ form{
     max-width: 600px;
     border: 2px solid var(--textcolor);
 }
-form h3{
+form h2{
     color: var(--secondrycolor);
     font-weight: 800;
-    margin-bottom: 20px;
+    margin: 20px 0px;
+    font-size: 30px;
 }
 
 form input  textarea{
@@ -142,7 +151,7 @@ form input  textarea{
 /* ===================style for send button===============  */
 button {
     font-family: inherit;
-    font-size: 20px;
+    font-size: 15px;
     background: var(--secondrycolor);
     color: white;
     padding: 0.7em 1em;
@@ -154,8 +163,8 @@ button {
     overflow: hidden;
     transition: all 0.2s;
     cursor: pointer;
-    margin-top: 10px;
-    width: 140px;
+    margin-top: 15px;
+    width: 100px;
   }
   
   button span {
@@ -238,8 +247,9 @@ button {
         
     }
     #contmsg{
-        font-size: 13px;
+        font-size: 12px;
         padding: 10px;
+        margin-top: 0px;
     }
     .contact-left div p{
         font-size: 15px;
@@ -256,6 +266,9 @@ button {
     button{
         font-size: 12px;
         width: 90px;
+    }
+    form h2{
+        font-size: 18px;
     }
 
 }
