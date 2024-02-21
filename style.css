@@ -212,7 +212,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   position: relative;
-  top: 100px;
+  top: 20px;
 }
 
 .categories .category-heading {
@@ -359,7 +359,7 @@ body {
   background-position: center center;
   background-size: cover;
   position: relative;
-  top: 200px;
+  top: 100px;
 }
 
 /* ======= about us ======= */
@@ -500,7 +500,7 @@ body {
   width: 100%;
   text-transform: capitalize;
   position: relative;
-  top: 220px;
+  top: 150px;
 }
 
 .team .team-heading {
@@ -593,7 +593,7 @@ body {
 
 /*  team-card1 */
 .team-cards .card1 {
-  background: linear-gradient(180deg, #1ab79d 30%, #ffffff 40%);
+  background: linear-gradient(180deg, #1ab79d 20%, #ffffff 30%);
 }
 
 #pic1 {
@@ -601,7 +601,15 @@ body {
   background-position: center;
   background-size: cover;
 }
-
+#pic2{
+  background: url(arman.jpg);
+  background-size: cover;
+  /* background-position: center; */
+}
+#pic3{
+  background: url(ismail.jpg);
+  background-size: cover;
+}
 .card1 h1 {
   color: #1ab79d;
 }
@@ -956,9 +964,9 @@ body {
   }
 
   .aboutus-img .acers {
-    width: 30%;
-    height: 15%;
-    font-size: 150%;
+    width: 25%;
+    height: 20%;
+    font-size: 100%;
   }
 
   /* about-us content */
