@@ -50,12 +50,12 @@ html {
 }
 
 .yellowish {
-    color: var(--secondrycolor);
+    color: #f8941f;
 }
 
 .header-content p {
     text-transform: capitalize;
-    font-size: 23px;
+    font-size: 22px;
     padding: 20px 60px 0px 100px;
     font-weight: 300;
 }
@@ -64,11 +64,11 @@ html {
     width: 50%;
     height: fit-content;
     padding: 100px;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
 .header-image img {
-    height: 350px;
+    height: 300px;
     width: auto;
     mix-blend-mode: darken;
 }
@@ -87,8 +87,7 @@ html {
     text-align: center;
     font-size: 32px;
     text-transform: capitalize;
-    color: var(--secondrycolor);
-    background-color: black;
+    color: #f8941f;
     margin: 0px 50px;
     padding: 5px;
 }
@@ -108,6 +107,7 @@ html {
     font-weight: 600;
     margin-top: 30px;
     text-transform: capitalize;
+    color: #d90101;
 }
 
 .image {
@@ -123,6 +123,7 @@ html {
     margin: 20px 0px;
     text-transform: capitalize;
     width: 70%;
+    color: #1c3b19;
 
 }
 
@@ -135,15 +136,13 @@ html {
 /* mca section  */
 .mca {
     margin: 50px 0px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .mca h1 {
     text-align: center;
     font-size: 35px;
-    color: var(--secondrycolor);
-    border: 1px solid black;
-    background-color: black;
+    color: #f8941f;
 }
 
 .mca p {
@@ -156,6 +155,7 @@ html {
     font-size: 28px;
     margin-top: 30px;
     text-transform: capitalize;
+    color: #0a3fca;
 }
 
 .mca ul li {
@@ -270,9 +270,7 @@ html {
 .mca h1 {
     text-align: center;
     font-size: 19px;
-    color: var(--secondrycolor);
-    border: 1px solid black;
-    background-color: black;
+    color: #f8941f;
 }
 
 .mca p {

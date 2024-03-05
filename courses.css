@@ -4,9 +4,34 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
-  color: #010101;
+/* ==== to hide scrollbar ==== */
+::-webkit-scrollbar {
+  display: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* style variables */
+:root {
+  --font1: "Outfit", sans-serif;
+  --font2: "Libre Baskerville", serif;
+  --font3: "Bebas Neue", sans-serif;
+  --primarycolor: #f1f1f1;
+  /* --secondrycolor:#f0a500; */
+  --secondrycolor: #f8b81f;
+  --headingcolor: #1ab79d;
+  --textcolor: #1f1f1f;
+}
+
+/* ===== body ===== */
+body {
+  font-family: var(--font1);
+  background-color: #ffffffc7;
+  color: var(--textcolor);
+}
+
 /*  career header style  */
 .head-er {
   height: 50vw;
@@ -26,18 +51,18 @@ body {
   text-transform: capitalize;
   padding-top: 110px;
   padding-left: 100px;
-  font-size: 50px;
+  font-size: 45px;
   font-family: var(--font1);
   font-weight: 700;
 }
 
 #yellowish {
-  color: var(--secondrycolor);
+  color: #ee4a62;
 }
 
 .header-content p {
   text-transform: capitalize;
-  font-size: 23px;
+  font-size: 20px;
   padding: 20px 60px 0px 100px;
   font-weight: 300;
 }
@@ -50,7 +75,7 @@ body {
 }
 
 .header-image img {
-  height: 350px;
+  height: 300px;
   width: auto;
   mix-blend-mode: darken;
 }
@@ -64,11 +89,11 @@ body {
 
 }
 .yellowish {
-  color: red;
+  color:#ee4a62;
 }
 #pyq-heading {
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   text-transform: capitalize;
 }
@@ -85,7 +110,7 @@ img {
 }
 
 .btn {
-  color: #eca90d;
+  color: #ee4a62;
   padding: 0.8rem;
   font-size: 14px;
   text-transform: uppercase;
@@ -347,7 +372,7 @@ img {
       padding-left: 0px;
       display: flex;
       justify-content: center;
-      margin-top: 50px;
+      margin-top: 20px;
   }
 
   .header-image img {

@@ -24,7 +24,9 @@ html {
     --headingcolor: #1ab79d;
     --textcolor: #1f1f1f;
 }
-
+body{
+    font-family: var(--font1);
+}
 /*  notes style  */
 .head-er {
     height: 50vw;
@@ -50,7 +52,7 @@ html {
 }
 
 .yellowish {
-    color: var(--secondrycolor);
+    color: #1ab79d;
 }
 
 .header-content p {
@@ -82,9 +84,11 @@ html {
 
 #pyq-heading {
     font-size: 35px;
-    font-weight: 500;
+    letter-spacing: 2px;
+    font-weight: 700;
     text-align: center;
     text-transform: capitalize;
+    font-style: var(--font1);
 }
 
 .card_image {
@@ -100,7 +104,7 @@ img {
 }
 
 .btn {
-    color: #eca90d;
+    color: #1ab79d;
     padding: 0.8rem;
     font-size: 14px;
     text-transform: uppercase;
@@ -164,9 +168,9 @@ img {
 
 .card_title {
     color: black;
-    font-size: 1.0rem;
+    font-size: 20px;
     font-weight: 700;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     text-transform: capitalize;
     margin: 0px;
     height: 50px;
@@ -175,8 +179,9 @@ img {
 .card_text {
     color: black;
     font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
+    /* line-height: 1.5; */
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-weight: 400;
 }
 
@@ -184,7 +189,7 @@ img {
 /*======== css for small screens =========*/
 @media only screen and (max-width:600px) {
     .head-er {
-        height: 80vh;
+        height: 75vh;
         background: url("img66.png");
         background-position: center;
         background-size: cover;
@@ -217,7 +222,7 @@ img {
         padding-left: 0px;
         display: flex;
         justify-content: center;
-        margin-top: 25px;
+        margin-top: 5px;
     }
 
     .header-image img {
