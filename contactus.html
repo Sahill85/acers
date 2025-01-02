@@ -17,8 +17,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- ======== fontawesome ====== -->
     <script src="https://kit.fontawesome.com/484d1ff7e0.js" crossorigin="anonymous"></script>
-      <!-- ======== web icon ====== -->
-      <link rel="website icon" href="webicon.png" type="png">
+    <!-- ======== web icon ====== -->
+    <link rel="website icon" href="webicon.png" type="png">
     <title>ACERS</title>
 </head>
 
@@ -53,19 +53,11 @@
             <h1 id="contact-topheading">Send Us Message</h1>
             <div class="containerr">
                 <div class="contact-left">
-                   
+
                     <div class="g">
-                        <!-- <p id="contmsg">
-                            Welcome to <b id="yellowish">ACERS</b>- Your Ultimate Academic Hub! We're here to support you
-                            on your educational journey. Don't hesitate to reach out for help or guidance - our
-                            dedicated team is ready to assist you. Your feedback is invaluable to us, as we strive to
-                            create an inclusive and empowering learning environment. Feel free to ask questions, share
-                            your thoughts, and let us know how we can enhance your experience. Together, let's make your
-                            academic adventure a success!
-                        </p> -->
                         <img src="contactus.gif" alt="" height="350px" width="auto">
                     </div>
-                     <div class="a">
+                    <div class="a">
                         <i class="fa-sharp fa-solid fa-paper-plane"></i>
                         <h4>Email Us</h4>
                         <p id="emaill">acers.saai@gmail.com</p>
@@ -95,7 +87,7 @@
                                 <label for="message"></label>
                                 <textarea id="message" class="form-control" rows="4" name="Message"
                                     placeholder="Enter Your Query"></textarea>
-                                <button>
+                                <button onclick="console.log('Button was clicked!')">
                                     <div class="svg-wrapper-1">
                                         <div class="svg-wrapper">
                                             <svg height="24" width="24" viewBox="0 0 24 24"
@@ -130,10 +122,6 @@
                 <p> The development of ACERS has been a dynamic journey filled with innovation and dedication. As we
                     reflect on the year-long practical project, we take pride in the seamless integration of
                     cutting-edge technologies and user-centric design</p>
-                <!-- <p>
-                    We extend our gratitude to everyone who contributed to this project, from the brainstorming sessions
-                    to the final implementation
-                </p> -->
                 <h4>special thanks</h4>
                 <h3>mr. shailendra purohit (HOD BCA Faculty)</h3>
             </div>
@@ -177,14 +165,15 @@
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwLoeN3ZnznkOKzqxRZRxLZCiV4-X_9rcVchZLCwfD0OhzFUrJpzq0NnNQ7kOQKvgyL/exec'
         const form = document.forms['submit-to-google-sheet']
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
+    </script>
+
 </body>
 <script src="app.js"></script>
 
