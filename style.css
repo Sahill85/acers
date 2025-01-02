@@ -131,13 +131,13 @@ body {
 }
 
 #logopic {
-  padding: 20px 25px;
+  padding: auto 25px;
   height: fit-content;
   width: auto;
 }
 
 #logopic img {
-  height: 30px;
+  height: 75px;
   width: auto;
 }
 
@@ -603,15 +603,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-#pic2{
-  background: url(Team/arman.jpg);
-  background-size: cover;
-  /* background-position: center; */
-}
-#pic3{
-  background: url(Team/ismail.jpg);
-  background-size: cover;
-}
 #pic4{
   background: url(Team/profile.jpg);
   background-size: cover;
@@ -713,8 +704,8 @@ body {
 }
 
 .footer-wrapper .section1 a img {
-  height: 50px;
-  width: 150px;
+  height: 100px;
+  width: auto;
 }
 
 /* ======== section 1 ======== */

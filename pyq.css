@@ -89,6 +89,7 @@ body{
     text-align: center;
     letter-spacing: 1px;
     text-transform: capitalize;
+    margin: 6px 0px;
 }
 
 .card_image {
